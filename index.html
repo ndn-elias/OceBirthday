@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joyeux Anniversaire !</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Joyeux Anniversaire !</h1>
+        <p>Bienvenue sur ta page spéciale</p>
+      </header>
+    
+      <div class="video-container hidden">
+        <video
+          id="birthday-video"
+          controls
+          poster="https://via.placeholder.com/800x450/000000/FFFFFF?text=Video+Anniversaire"
+        >
+          <source src="ta-video.mp4" type="video/mp4" />
+          Ton navigateur ne supporte pas la vidéo.
+        </video>
+      </div>
+    
+      <div class="content">
+        <h2>Un message pour toi</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <button id="surprise-button" class="cta-button">
+          Découvrir la surprise
+        </button>
+      </div>
+    
+      <div class="confetti-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
